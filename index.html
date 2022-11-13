@@ -35,19 +35,19 @@
             });
         });
     </script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-    $$ \frac ab $$
-    La longueur est de $ \frac ab $
-    $$ boujour $$
-    $$ \text{boujour} $$
-    $$
-    \color{green}{\sum_{k = 0}^{n} k = \frac{ n(n+1) }{2}}\\
-    \int_{\int_{\int_{\int_{\int_{\int_{\int}}}}}}\\
-    \color{black}{\infin}
-
-    $$
+    <input type="text" id="input-math">
+    <div>
+        <button id="pui">puissance</button>
+        <button id="frac">fraction</button>
+        <button id="rac">racine</button>
+        <button id="int">intégrale</button>
+    </div>
+    <span id="affichage-math"></span>
+    <div id="input-element"></div>
 </body>
 
 </html>
